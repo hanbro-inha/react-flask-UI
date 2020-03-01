@@ -1,4 +1,4 @@
-# React-Flask-UI
+# React-Flask-UI for ADAS monitoring
 
 UI implemented using Material-UI, React frontend - ZMQ, CAPNP, FLASK, Socket-IO backend
 
