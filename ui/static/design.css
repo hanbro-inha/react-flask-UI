@@ -1,0 +1,105 @@
+body {
+  font-family: sans-serif;
+  background: white;  
+}
+
+#ss {
+	position:relative;
+	top : 25px;
+	margin : 50 0 50 150;
+}
+
+#time{
+  position:relative;
+}
+
+#top, #bottom, #left, #right {
+	background: #a5ebff;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 25px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 25px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+#lights {
+  height: 600px;
+  width: 600px;
+  position: relative;
+  left : 10%;
+  float: left;
+}
+
+#traffic-light {
+  height: 200px;
+  width: 550px;
+  position: relative;
+  left: 10px;
+  /*transform: translate(-50%);*/
+  background-color: #E2CB00;
+  border: 10px solid black;
+  border-color: black;
+  border-radius: 40px;
+  padding: 20px;
+  margin : 10px;
+  float : left;
+}
+
+#car {
+  height: 800px;
+  width: 550px;
+  border: 5px solid black;
+  position: relative;
+  margin: 20px 0 0 150px;
+  float : left;
+}
+
+#info {
+  margin : 2 2 2 2;
+  position: relative;
+}
+
+img {
+    max-width: 60%;
+    position: relative;
+    left: 80px;
+}
+
+.bulb {
+  height: 135px;
+  width: 135px;
+  background-color: #111;
+  border-radius: 20%;
+  margin: 20px;
+  float: left;
+  transition: background 500ms;
+}
+@media(max-width:600px){
+   #controlPanel {
+     float: left;
+     padding-top: 30px;   
+  }
+  
+  .button{
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #traffic-light {
+    height: 200px;
+    width: 550px;
+    float: left;
+    margin: 30px 0;
+    padding: 20px;
+    background-color: red;
+}
+
